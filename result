@@ -1,0 +1,3274 @@
+./kma_lzbud: Running in correctness mode
+
+
+
+#############REQUEST############# #1
+round size is: 64
+Before Init entry page
+-----------new page addr 0x1a86dc0, ptr: 0x7f5dc57ea000 
+Init entry page DONE
+Before Init first storage page
+-----------new page addr 0x1a86de0, ptr: 0x7f5dc57ec000 
+f 0 0 0 0 0 0 0 
+f 0 0 0 0 0 0 0 
+Current page count is: 2
+Init first storage page DONE
+Before find free block
+3f 0 0 0 0 0 0 0 
+3f 0 0 0 0 0 0 0 
+block size:32	A: 0	L: 0	
+block size:64	A: 0	L: 0	0x7f5dc57ec0c0 
+block size:128	A: 0	L: 0	
+block size:256	A: 0	L: 0	0x7f5dc57ec100 
+block size:512	A: 0	L: 0	0x7f5dc57ec200 
+block size:1024	A: 0	L: 0	0x7f5dc57ec400 
+block size:2048	A: 0	L: 0	0x7f5dc57ec800 
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #2
+round size is: 256
+Before find free block
+ff3f 0 0 0 0 0 0 0 
+ff3f 0 0 0 0 0 0 0 
+block size:32	A: 0	L: 0	
+block size:64	A: 1	L: 0	0x7f5dc57ec0c0 
+block size:128	A: 0	L: 0	
+block size:256	A: 0	L: 0	
+block size:512	A: 0	L: 0	0x7f5dc57ec200 
+block size:1024	A: 0	L: 0	0x7f5dc57ec400 
+block size:2048	A: 0	L: 0	0x7f5dc57ec800 
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #3
+round size is: 32
+Before find free block
+ff7f 0 0 0 0 0 0 0 
+ff7f 0 0 0 0 0 0 0 
+block size:32	A: 0	L: 0	0x7f5dc57ec0e0 
+block size:64	A: 1	L: 0	
+block size:128	A: 0	L: 0	
+block size:256	A: 1	L: 0	
+block size:512	A: 0	L: 0	0x7f5dc57ec200 
+block size:1024	A: 0	L: 0	0x7f5dc57ec400 
+block size:2048	A: 0	L: 0	0x7f5dc57ec800 
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #4
+round size is: 32
+Before find free block
+ffff 0 0 0 0 0 0 0 
+ffff 0 0 0 0 0 0 0 
+block size:32	A: 1	L: 0	
+block size:64	A: 1	L: 0	
+block size:128	A: 0	L: 0	
+block size:256	A: 1	L: 0	
+block size:512	A: 0	L: 0	0x7f5dc57ec200 
+block size:1024	A: 0	L: 0	0x7f5dc57ec400 
+block size:2048	A: 0	L: 0	0x7f5dc57ec800 
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #5
+round size is: 1024
+Before find free block
+ffff ffffffff 0 0 0 0 0 0 
+ffff ffffffff 0 0 0 0 0 0 
+block size:32	A: 2	L: 0	
+block size:64	A: 1	L: 0	
+block size:128	A: 0	L: 0	
+block size:256	A: 1	L: 0	
+block size:512	A: 0	L: 0	0x7f5dc57ec200 
+block size:1024	A: 0	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ec800 
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #6
+round size is: 32
+Before find free block
+1ffff ffffffff 0 0 0 0 0 0 
+1ffff ffffffff 0 0 0 0 0 0 
+block size:32	A: 2	L: 0	0x7f5dc57ec220 
+block size:64	A: 1	L: 0	0x7f5dc57ec240 
+block size:128	A: 0	L: 0	0x7f5dc57ec280 
+block size:256	A: 1	L: 0	0x7f5dc57ec300 
+block size:512	A: 0	L: 0	
+block size:1024	A: 1	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ec800 
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #7
+round size is: 32
+Before find free block
+3ffff ffffffff 0 0 0 0 0 0 
+3ffff ffffffff 0 0 0 0 0 0 
+block size:32	A: 3	L: 0	
+block size:64	A: 1	L: 0	0x7f5dc57ec240 
+block size:128	A: 0	L: 0	0x7f5dc57ec280 
+block size:256	A: 1	L: 0	0x7f5dc57ec300 
+block size:512	A: 0	L: 0	
+block size:1024	A: 1	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ec800 
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #8
+round size is: 512
+Before find free block
+3ffff ffffffff ffff 0 0 0 0 0 
+3ffff ffffffff ffff 0 0 0 0 0 
+block size:32	A: 4	L: 0	
+block size:64	A: 1	L: 0	0x7f5dc57ec240 
+block size:128	A: 0	L: 0	0x7f5dc57ec280 
+block size:256	A: 1	L: 0	0x7f5dc57ec300 
+block size:512	A: 0	L: 0	0x7f5dc57eca00 
+block size:1024	A: 1	L: 0	0x7f5dc57ecc00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #9
+round size is: 32
+Before find free block
+7ffff ffffffff ffff 0 0 0 0 0 
+7ffff ffffffff ffff 0 0 0 0 0 
+block size:32	A: 4	L: 0	0x7f5dc57ec260 
+block size:64	A: 1	L: 0	
+block size:128	A: 0	L: 0	0x7f5dc57ec280 
+block size:256	A: 1	L: 0	0x7f5dc57ec300 
+block size:512	A: 1	L: 0	0x7f5dc57eca00 
+block size:1024	A: 1	L: 0	0x7f5dc57ecc00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #10
+round size is: 256
+Before find free block
+ff07ffff ffffffff ffff 0 0 0 0 0 
+ff07ffff ffffffff ffff 0 0 0 0 0 
+block size:32	A: 5	L: 0	0x7f5dc57ec260 
+block size:64	A: 1	L: 0	
+block size:128	A: 0	L: 0	0x7f5dc57ec280 
+block size:256	A: 1	L: 0	
+block size:512	A: 1	L: 0	0x7f5dc57eca00 
+block size:1024	A: 1	L: 0	0x7f5dc57ecc00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #11
+round size is: 32
+Before find free block
+ff0fffff ffffffff ffff 0 0 0 0 0 
+ff0fffff ffffffff ffff 0 0 0 0 0 
+block size:32	A: 5	L: 0	
+block size:64	A: 1	L: 0	
+block size:128	A: 0	L: 0	0x7f5dc57ec280 
+block size:256	A: 2	L: 0	
+block size:512	A: 1	L: 0	0x7f5dc57eca00 
+block size:1024	A: 1	L: 0	0x7f5dc57ecc00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #12
+round size is: 32
+Before find free block
+ff1fffff ffffffff ffff 0 0 0 0 0 
+ff1fffff ffffffff ffff 0 0 0 0 0 
+block size:32	A: 6	L: 0	0x7f5dc57ec2a0 
+block size:64	A: 1	L: 0	0x7f5dc57ec2c0 
+block size:128	A: 0	L: 0	
+block size:256	A: 2	L: 0	
+block size:512	A: 1	L: 0	0x7f5dc57eca00 
+block size:1024	A: 1	L: 0	0x7f5dc57ecc00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #13
+round size is: 64
+Before find free block
+ffdfffff ffffffff ffff 0 0 0 0 0 
+ffdfffff ffffffff ffff 0 0 0 0 0 
+block size:32	A: 7	L: 0	0x7f5dc57ec2a0 
+block size:64	A: 1	L: 0	
+block size:128	A: 0	L: 0	
+block size:256	A: 2	L: 0	
+block size:512	A: 1	L: 0	0x7f5dc57eca00 
+block size:1024	A: 1	L: 0	0x7f5dc57ecc00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #14
+round size is: 1024
+Before find free block
+ffdfffff ffffffff ffff ffffffff 0 0 0 0 
+ffdfffff ffffffff ffff ffffffff 0 0 0 0 
+block size:32	A: 7	L: 0	0x7f5dc57ec2a0 
+block size:64	A: 2	L: 0	
+block size:128	A: 0	L: 0	
+block size:256	A: 2	L: 0	
+block size:512	A: 1	L: 0	0x7f5dc57eca00 
+block size:1024	A: 1	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #15
+round size is: 256
+Before find free block
+ffdfffff ffffffff ffffff ffffffff 0 0 0 0 
+ffdfffff ffffffff ffffff ffffffff 0 0 0 0 
+block size:32	A: 7	L: 0	0x7f5dc57ec2a0 
+block size:64	A: 2	L: 0	
+block size:128	A: 0	L: 0	
+block size:256	A: 2	L: 0	0x7f5dc57ecb00 
+block size:512	A: 1	L: 0	
+block size:1024	A: 2	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #16
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffff ffffffff 0 0 0 0 
+ffffffff ffffffff ffffff ffffffff 0 0 0 0 
+block size:32	A: 7	L: 0	
+block size:64	A: 2	L: 0	
+block size:128	A: 0	L: 0	
+block size:256	A: 3	L: 0	0x7f5dc57ecb00 
+block size:512	A: 1	L: 0	
+block size:1024	A: 2	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #17
+round size is: 32
+Before find free block
+ffffffff ffffffff 1ffffff ffffffff 0 0 0 0 
+ffffffff ffffffff 1ffffff ffffffff 0 0 0 0 
+block size:32	A: 8	L: 0	0x7f5dc57ecb20 
+block size:64	A: 2	L: 0	0x7f5dc57ecb40 
+block size:128	A: 0	L: 0	0x7f5dc57ecb80 
+block size:256	A: 3	L: 0	
+block size:512	A: 1	L: 0	
+block size:1024	A: 2	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ed000 
+
+
+
+#############REQUEST############# #18
+round size is: 1024
+Before find free block
+ffffffff ffffffff 1ffffff ffffffff ffffffff 0 0 0 
+ffffffff ffffffff 1ffffff ffffffff ffffffff 0 0 0 
+block size:32	A: 9	L: 0	0x7f5dc57ecb20 
+block size:64	A: 2	L: 0	0x7f5dc57ecb40 
+block size:128	A: 0	L: 0	0x7f5dc57ecb80 
+block size:256	A: 3	L: 0	
+block size:512	A: 1	L: 0	
+block size:1024	A: 2	L: 0	0x7f5dc57ed400 
+block size:2048	A: 0	L: 0	0x7f5dc57ed800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #19
+ptr: 0x7f5dc57ec2a0, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff 1ffffff ffffffff ffffffff 0 0 0 
+ffdfffff ffffffff 1ffffff ffffffff ffffffff 0 0 0 
+block size:32	A: 9	L: 0	0x7f5dc57ecb20 
+block size:64	A: 2	L: 0	0x7f5dc57ecb40 
+block size:128	A: 0	L: 0	0x7f5dc57ecb80 
+block size:256	A: 3	L: 0	
+block size:512	A: 1	L: 0	
+block size:1024	A: 3	L: 0	0x7f5dc57ed400 
+block size:2048	A: 0	L: 0	0x7f5dc57ed800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #20
+round size is: 32
+Before find free block
+ffffffff ffffffff 3ffffff ffffffff ffffffff 0 0 0 
+ffdfffff ffffffff 3ffffff ffffffff ffffffff 0 0 0 
+block size:32	A: 9	L: 0	
+block size:64	A: 2	L: 0	0x7f5dc57ecb40 
+block size:128	A: 0	L: 0	0x7f5dc57ecb80 
+block size:256	A: 3	L: 0	
+block size:512	A: 1	L: 0	
+block size:1024	A: 3	L: 0	0x7f5dc57ed400 
+block size:2048	A: 0	L: 0	0x7f5dc57ed800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #21
+round size is: 128
+Before find free block
+ffffffff ffffffff f3ffffff ffffffff ffffffff 0 0 0 
+ffdfffff ffffffff f3ffffff ffffffff ffffffff 0 0 0 
+block size:32	A: 10	L: 0	
+block size:64	A: 2	L: 0	0x7f5dc57ecb40 
+block size:128	A: 0	L: 0	
+block size:256	A: 3	L: 0	
+block size:512	A: 1	L: 0	
+block size:1024	A: 3	L: 0	0x7f5dc57ed400 
+block size:2048	A: 0	L: 0	0x7f5dc57ed800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #22
+ptr: 0x7f5dc57ec300, start_of_page: 0x7f5dc57ec000
+round size is: 256
+ffffffff ffffffff f3ffffff ffffffff ffffffff 0 0 0 
+dfffff ffffffff f3ffffff ffffffff ffffffff 0 0 0 
+block size:32	A: 10	L: 0	
+block size:64	A: 2	L: 0	0x7f5dc57ecb40 
+block size:128	A: 1	L: 0	
+block size:256	A: 3	L: 0	
+block size:512	A: 1	L: 0	
+block size:1024	A: 3	L: 0	0x7f5dc57ed400 
+block size:2048	A: 0	L: 0	0x7f5dc57ed800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #23
+round size is: 1024
+Before find free block
+ffffffff ffffffff f3ffffff ffffffff ffffffff ffffffff 0 0 
+dfffff ffffffff f3ffffff ffffffff ffffffff ffffffff 0 0 
+block size:32	A: 10	L: 0	
+block size:64	A: 2	L: 0	0x7f5dc57ecb40 
+block size:128	A: 1	L: 0	
+block size:256	A: 3	L: 0	
+block size:512	A: 1	L: 0	
+block size:1024	A: 3	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ed800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #24
+round size is: 32
+Before find free block
+ffffffff ffffffff f7ffffff ffffffff ffffffff ffffffff 0 0 
+dfffff ffffffff f7ffffff ffffffff ffffffff ffffffff 0 0 
+block size:32	A: 10	L: 0	0x7f5dc57ecb60 
+block size:64	A: 2	L: 0	
+block size:128	A: 1	L: 0	
+block size:256	A: 3	L: 0	
+block size:512	A: 1	L: 0	
+block size:1024	A: 4	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ed800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #25
+round size is: 512
+Before find free block
+ffffffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffff 0 
+dfffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffff 0 
+block size:32	A: 11	L: 0	0x7f5dc57ecb60 
+block size:64	A: 2	L: 0	
+block size:128	A: 1	L: 0	
+block size:256	A: 3	L: 0	
+block size:512	A: 1	L: 0	0x7f5dc57eda00 
+block size:1024	A: 4	L: 0	0x7f5dc57edc00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #26
+round size is: 256
+Before find free block
+ffffffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffffff 0 
+dfffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffffff 0 
+block size:32	A: 11	L: 0	0x7f5dc57ecb60 
+block size:64	A: 2	L: 0	
+block size:128	A: 1	L: 0	
+block size:256	A: 3	L: 0	0x7f5dc57edb00 
+block size:512	A: 2	L: 0	
+block size:1024	A: 4	L: 0	0x7f5dc57edc00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #27
+round size is: 256
+Before find free block
+ffffffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffffffff 0 
+dfffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffffffff 0 
+block size:32	A: 11	L: 0	0x7f5dc57ecb60 
+block size:64	A: 2	L: 0	
+block size:128	A: 1	L: 0	
+block size:256	A: 4	L: 0	
+block size:512	A: 2	L: 0	
+block size:1024	A: 4	L: 0	0x7f5dc57edc00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #28
+round size is: 128
+Before find free block
+ffffffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffffffff f 
+dfffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffffffff f 
+block size:32	A: 11	L: 0	0x7f5dc57ecb60 
+block size:64	A: 2	L: 0	
+block size:128	A: 1	L: 0	0x7f5dc57edc80 
+block size:256	A: 5	L: 0	0x7f5dc57edd00 
+block size:512	A: 2	L: 0	0x7f5dc57ede00 
+block size:1024	A: 4	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #29
+round size is: 1024
+Before find free block
+-----------new page addr 0x1a874f0, ptr: 0x7f5dc57ee000 
+f 0 0 0 0 0 0 0 
+f 0 0 0 0 0 0 0 
+Current page count is: 3
+f ffffffff 0 0 0 0 0 0 
+f ffffffff 0 0 0 0 0 0 
+block size:32	A: 11	L: 0	0x7f5dc57ecb60 
+block size:64	A: 2	L: 0	
+block size:128	A: 2	L: 0	0x7f5dc57edc80 0x7f5dc57ee080 
+block size:256	A: 5	L: 0	0x7f5dc57edd00 0x7f5dc57ee100 
+block size:512	A: 2	L: 0	0x7f5dc57ede00 0x7f5dc57ee200 
+block size:1024	A: 4	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ee800 
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #30
+round size is: 512
+Before find free block
+ffffffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffffffff ffff000f 
+dfffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffffffff ffff000f 
+block size:32	A: 11	L: 0	0x7f5dc57ecb60 
+block size:64	A: 2	L: 0	
+block size:128	A: 2	L: 0	0x7f5dc57edc80 0x7f5dc57ee080 
+block size:256	A: 5	L: 0	0x7f5dc57edd00 0x7f5dc57ee100 
+block size:512	A: 2	L: 0	0x7f5dc57ee200 
+block size:1024	A: 5	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ee800 
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #31
+round size is: 64
+Before find free block
+ffffffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffffffff ffff003f 
+dfffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffffffff ffff003f 
+block size:32	A: 11	L: 0	0x7f5dc57ecb60 
+block size:64	A: 2	L: 0	0x7f5dc57edcc0 
+block size:128	A: 2	L: 0	0x7f5dc57ee080 
+block size:256	A: 5	L: 0	0x7f5dc57edd00 0x7f5dc57ee100 
+block size:512	A: 3	L: 0	0x7f5dc57ee200 
+block size:1024	A: 5	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ee800 
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #32
+round size is: 512
+Before find free block
+ffff000f ffffffff 0 0 0 0 0 0 
+ffff000f ffffffff 0 0 0 0 0 0 
+block size:32	A: 11	L: 0	0x7f5dc57ecb60 
+block size:64	A: 3	L: 0	0x7f5dc57edcc0 
+block size:128	A: 2	L: 0	0x7f5dc57ee080 
+block size:256	A: 5	L: 0	0x7f5dc57edd00 0x7f5dc57ee100 
+block size:512	A: 3	L: 0	
+block size:1024	A: 5	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ee800 
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #33
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff003f 
+dfffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff003f 
+block size:32	A: 11	L: 0	
+block size:64	A: 3	L: 0	0x7f5dc57edcc0 
+block size:128	A: 2	L: 0	0x7f5dc57ee080 
+block size:256	A: 5	L: 0	0x7f5dc57edd00 0x7f5dc57ee100 
+block size:512	A: 4	L: 0	
+block size:1024	A: 5	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ee800 
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############FREE############# #34
+ptr: 0x7f5dc57ec2c0, start_of_page: 0x7f5dc57ec000
+round size is: 64
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff003f 
+1fffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff003f 
+block size:32	A: 12	L: 0	
+block size:64	A: 3	L: 0	0x7f5dc57edcc0 
+block size:128	A: 2	L: 0	0x7f5dc57ee080 
+block size:256	A: 5	L: 0	0x7f5dc57edd00 0x7f5dc57ee100 
+block size:512	A: 4	L: 0	
+block size:1024	A: 5	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ee800 
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #35
+round size is: 128
+Before find free block
+ffff00ff ffffffff 0 0 0 0 0 0 
+ffff00ff ffffffff 0 0 0 0 0 0 
+block size:32	A: 12	L: 0	
+block size:64	A: 3	L: 0	0x7f5dc57edcc0 
+block size:128	A: 2	L: 0	
+block size:256	A: 5	L: 0	0x7f5dc57edd00 0x7f5dc57ee100 
+block size:512	A: 4	L: 0	
+block size:1024	A: 5	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ee800 
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #36
+round size is: 512
+Before find free block
+ffff00ff ffffffff ffff 0 0 0 0 0 
+ffff00ff ffffffff ffff 0 0 0 0 0 
+block size:32	A: 12	L: 0	
+block size:64	A: 3	L: 0	0x7f5dc57edcc0 
+block size:128	A: 3	L: 0	
+block size:256	A: 5	L: 0	0x7f5dc57edd00 0x7f5dc57ee100 
+block size:512	A: 4	L: 0	0x7f5dc57eea00 
+block size:1024	A: 5	L: 0	0x7f5dc57eec00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############FREE############# #37
+ptr: 0x7f5dc57ee800, start_of_page: 0x7f5dc57ee000
+round size is: 512
+ffff00ff ffffffff ffff 0 0 0 0 0 
+ffff00ff ffffffff 0 0 0 0 0 0 
+block size:32	A: 12	L: 0	
+block size:64	A: 3	L: 0	0x7f5dc57edcc0 
+block size:128	A: 3	L: 0	
+block size:256	A: 5	L: 0	0x7f5dc57edd00 0x7f5dc57ee100 
+block size:512	A: 5	L: 0	0x7f5dc57eea00 
+block size:1024	A: 5	L: 0	0x7f5dc57eec00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############FREE############# #38
+ptr: 0x7f5dc57ec260, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff003f 
+17ffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff003f 
+block size:32	A: 12	L: 0	
+block size:64	A: 3	L: 0	0x7f5dc57edcc0 
+block size:128	A: 3	L: 0	
+block size:256	A: 5	L: 0	0x7f5dc57edd00 0x7f5dc57ee100 
+block size:512	A: 5	L: 0	0x7f5dc57eea00 
+block size:1024	A: 5	L: 0	0x7f5dc57eec00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #39
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff007f 
+17ffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff007f 
+block size:32	A: 12	L: 0	0x7f5dc57edce0 
+block size:64	A: 3	L: 0	
+block size:128	A: 3	L: 0	
+block size:256	A: 5	L: 0	0x7f5dc57edd00 0x7f5dc57ee100 
+block size:512	A: 5	L: 0	0x7f5dc57eea00 
+block size:1024	A: 5	L: 0	0x7f5dc57eec00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #40
+round size is: 64
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff037f 
+17ffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff037f 
+block size:32	A: 13	L: 0	0x7f5dc57edce0 
+block size:64	A: 3	L: 0	0x7f5dc57edd40 
+block size:128	A: 3	L: 0	0x7f5dc57edd80 
+block size:256	A: 5	L: 0	0x7f5dc57ee100 
+block size:512	A: 5	L: 0	0x7f5dc57eea00 
+block size:1024	A: 5	L: 0	0x7f5dc57eec00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############FREE############# #41
+ptr: 0x7f5dc57ed000, start_of_page: 0x7f5dc57ec000
+round size is: 1024
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff037f 
+17ffff ffffffff ffffffff ffffffff 0 ffffffff ffffffff ffff037f 
+block size:32	A: 13	L: 0	0x7f5dc57edce0 
+block size:64	A: 4	L: 0	0x7f5dc57edd40 
+block size:128	A: 3	L: 0	0x7f5dc57edd80 
+block size:256	A: 5	L: 0	0x7f5dc57ee100 
+block size:512	A: 5	L: 0	0x7f5dc57eea00 
+block size:1024	A: 5	L: 0	0x7f5dc57eec00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############FREE############# #42
+ptr: 0x7f5dc57ec800, start_of_page: 0x7f5dc57ec000
+round size is: 512
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff037f 
+17ffff ffffffff ffff0000 ffffffff 0 ffffffff ffffffff ffff037f 
+block size:32	A: 13	L: 0	0x7f5dc57edce0 
+block size:64	A: 4	L: 0	0x7f5dc57edd40 
+block size:128	A: 3	L: 0	0x7f5dc57edd80 
+block size:256	A: 5	L: 0	0x7f5dc57ee100 
+block size:512	A: 5	L: 0	0x7f5dc57eea00 
+block size:1024	A: 5	L: 0	0x7f5dc57eec00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #43
+round size is: 1024
+Before find free block
+ffff00ff ffffffff ffff ffffffff 0 0 0 0 
+ffff00ff ffffffff 0 ffffffff 0 0 0 0 
+block size:32	A: 13	L: 0	0x7f5dc57edce0 
+block size:64	A: 4	L: 0	0x7f5dc57edd40 
+block size:128	A: 3	L: 0	0x7f5dc57edd80 
+block size:256	A: 5	L: 0	0x7f5dc57ee100 
+block size:512	A: 5	L: 0	0x7f5dc57eea00 
+block size:1024	A: 5	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #44
+round size is: 256
+Before find free block
+ffffffff ffffffff ffff ffffffff 0 0 0 0 
+ffffffff ffffffff 0 ffffffff 0 0 0 0 
+block size:32	A: 13	L: 0	0x7f5dc57edce0 
+block size:64	A: 4	L: 0	0x7f5dc57edd40 
+block size:128	A: 3	L: 0	0x7f5dc57edd80 
+block size:256	A: 5	L: 0	
+block size:512	A: 5	L: 0	0x7f5dc57eea00 
+block size:1024	A: 6	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #45
+round size is: 256
+Before find free block
+ffffffff ffffffff ffffff ffffffff 0 0 0 0 
+ffffffff ffffffff ff0000 ffffffff 0 0 0 0 
+block size:32	A: 13	L: 0	0x7f5dc57edce0 
+block size:64	A: 4	L: 0	0x7f5dc57edd40 
+block size:128	A: 3	L: 0	0x7f5dc57edd80 
+block size:256	A: 6	L: 0	0x7f5dc57eeb00 
+block size:512	A: 5	L: 0	
+block size:1024	A: 6	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #46
+round size is: 256
+Before find free block
+ffffffff ffffffff ffffffff ffffffff 0 0 0 0 
+ffffffff ffffffff ffff0000 ffffffff 0 0 0 0 
+block size:32	A: 13	L: 0	0x7f5dc57edce0 
+block size:64	A: 4	L: 0	0x7f5dc57edd40 
+block size:128	A: 3	L: 0	0x7f5dc57edd80 
+block size:256	A: 7	L: 0	
+block size:512	A: 5	L: 0	
+block size:1024	A: 6	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #47
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff03ff 
+17ffff ffffffff ffff0000 ffffffff 0 ffffffff ffffffff ffff03ff 
+block size:32	A: 13	L: 0	
+block size:64	A: 4	L: 0	0x7f5dc57edd40 
+block size:128	A: 3	L: 0	0x7f5dc57edd80 
+block size:256	A: 8	L: 0	
+block size:512	A: 5	L: 0	
+block size:1024	A: 6	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############FREE############# #48
+ptr: 0x7f5dc57ec400, start_of_page: 0x7f5dc57ec000
+round size is: 1024
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff03ff 
+17ffff 0 ffff0000 ffffffff 0 ffffffff ffffffff ffff03ff 
+block size:32	A: 14	L: 0	
+block size:64	A: 4	L: 0	0x7f5dc57edd40 
+block size:128	A: 3	L: 0	0x7f5dc57edd80 
+block size:256	A: 8	L: 0	
+block size:512	A: 5	L: 0	
+block size:1024	A: 6	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57ef000 
+
+
+
+#############REQUEST############# #49
+round size is: 512
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffff 0 0 0 
+ffffffff ffffffff ffff0000 ffffffff ffff 0 0 0 
+block size:32	A: 14	L: 0	
+block size:64	A: 4	L: 0	0x7f5dc57edd40 
+block size:128	A: 3	L: 0	0x7f5dc57edd80 
+block size:256	A: 8	L: 0	
+block size:512	A: 5	L: 0	0x7f5dc57ef200 
+block size:1024	A: 6	L: 0	0x7f5dc57ef400 
+block size:2048	A: 0	L: 0	0x7f5dc57ef800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #50
+round size is: 128
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff fffff3ff 
+17ffff 0 ffff0000 ffffffff 0 ffffffff ffffffff fffff3ff 
+block size:32	A: 14	L: 0	
+block size:64	A: 4	L: 0	0x7f5dc57edd40 
+block size:128	A: 3	L: 0	
+block size:256	A: 8	L: 0	
+block size:512	A: 6	L: 0	0x7f5dc57ef200 
+block size:1024	A: 6	L: 0	0x7f5dc57ef400 
+block size:2048	A: 0	L: 0	0x7f5dc57ef800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #51
+ptr: 0x7f5dc57edce0, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff fffff3ff 
+17ffff 0 ffff0000 ffffffff 0 ffffffff ffffffff fffff37f 
+block size:32	A: 14	L: 0	
+block size:64	A: 4	L: 0	0x7f5dc57edd40 
+block size:128	A: 4	L: 0	
+block size:256	A: 8	L: 0	
+block size:512	A: 6	L: 0	0x7f5dc57ef200 
+block size:1024	A: 6	L: 0	0x7f5dc57ef400 
+block size:2048	A: 0	L: 0	0x7f5dc57ef800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #52
+ptr: 0x7f5dc57edb00, start_of_page: 0x7f5dc57ec000
+round size is: 256
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff fffff3ff 
+17ffff 0 ffff0000 ffffffff 0 ffffffff ffffff fffff37f 
+block size:32	A: 14	L: 0	
+block size:64	A: 4	L: 0	0x7f5dc57edd40 
+block size:128	A: 4	L: 0	
+block size:256	A: 8	L: 0	
+block size:512	A: 6	L: 0	0x7f5dc57ef200 
+block size:1024	A: 6	L: 0	0x7f5dc57ef400 
+block size:2048	A: 0	L: 0	0x7f5dc57ef800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #53
+round size is: 64
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+17ffff 0 ffff0000 ffffffff 0 ffffffff ffffff ffffff7f 
+block size:32	A: 14	L: 0	
+block size:64	A: 4	L: 0	
+block size:128	A: 4	L: 0	
+block size:256	A: 8	L: 0	
+block size:512	A: 6	L: 0	0x7f5dc57ef200 
+block size:1024	A: 6	L: 0	0x7f5dc57ef400 
+block size:2048	A: 0	L: 0	0x7f5dc57ef800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #54
+ptr: 0x7f5dc57ec080, start_of_page: 0x7f5dc57ec000
+round size is: 64
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+17ffcf 0 ffff0000 ffffffff 0 ffffffff ffffff ffffff7f 
+block size:32	A: 14	L: 0	
+block size:64	A: 5	L: 0	
+block size:128	A: 4	L: 0	
+block size:256	A: 8	L: 0	
+block size:512	A: 6	L: 0	0x7f5dc57ef200 
+block size:1024	A: 6	L: 0	0x7f5dc57ef400 
+block size:2048	A: 0	L: 0	0x7f5dc57ef800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #55
+round size is: 1024
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffff ffffffff 0 0 
+ffffffff ffffffff ffff0000 ffffffff ffff ffffffff 0 0 
+block size:32	A: 14	L: 0	
+block size:64	A: 5	L: 0	
+block size:128	A: 4	L: 0	
+block size:256	A: 8	L: 0	
+block size:512	A: 6	L: 0	0x7f5dc57ef200 
+block size:1024	A: 6	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ef800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #56
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff ffffffff 1ffff ffffffff 0 0 
+ffffffff ffffffff ffff0000 ffffffff 1ffff ffffffff 0 0 
+block size:32	A: 14	L: 0	0x7f5dc57ef220 
+block size:64	A: 5	L: 0	0x7f5dc57ef240 
+block size:128	A: 4	L: 0	0x7f5dc57ef280 
+block size:256	A: 8	L: 0	0x7f5dc57ef300 
+block size:512	A: 6	L: 0	
+block size:1024	A: 7	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ef800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #57
+ptr: 0x7f5dc57eeb00, start_of_page: 0x7f5dc57ee000
+round size is: 256
+ffffffff ffffffff ffffffff ffffffff 1ffff ffffffff 0 0 
+ffffffff ffffffff ff0000 ffffffff 1ffff ffffffff 0 0 
+block size:32	A: 15	L: 0	0x7f5dc57ef220 
+block size:64	A: 5	L: 0	0x7f5dc57ef240 
+block size:128	A: 4	L: 0	0x7f5dc57ef280 
+block size:256	A: 8	L: 0	0x7f5dc57ef300 
+block size:512	A: 6	L: 0	
+block size:1024	A: 7	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57ef800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #58
+round size is: 1024
+Before find free block
+ffffffff ffffffff ffffffff ffffffff 1ffff ffffffff ffffffff 0 
+ffffffff ffffffff ff0000 ffffffff 1ffff ffffffff ffffffff 0 
+block size:32	A: 15	L: 0	0x7f5dc57ef220 
+block size:64	A: 5	L: 0	0x7f5dc57ef240 
+block size:128	A: 4	L: 0	0x7f5dc57ef280 
+block size:256	A: 8	L: 0	0x7f5dc57ef300 
+block size:512	A: 6	L: 0	
+block size:1024	A: 7	L: 0	0x7f5dc57efc00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #59
+ptr: 0x7f5dc57ec0c0, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+17ff8f 0 ffff0000 ffffffff 0 ffffffff ffffff ffffff7f 
+block size:32	A: 15	L: 0	0x7f5dc57ef220 
+block size:64	A: 5	L: 0	0x7f5dc57ef240 
+block size:128	A: 4	L: 0	0x7f5dc57ef280 
+block size:256	A: 8	L: 0	0x7f5dc57ef300 
+block size:512	A: 6	L: 0	
+block size:1024	A: 8	L: 0	0x7f5dc57efc00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #60
+round size is: 128
+Before find free block
+ffffffff ffffffff ffffffff ffffffff f1ffff ffffffff ffffffff 0 
+ffffffff ffffffff ff0000 ffffffff f1ffff ffffffff ffffffff 0 
+block size:32	A: 15	L: 0	0x7f5dc57ef220 
+block size:64	A: 5	L: 0	0x7f5dc57ef240 
+block size:128	A: 4	L: 0	
+block size:256	A: 8	L: 0	0x7f5dc57ef300 
+block size:512	A: 6	L: 0	
+block size:1024	A: 8	L: 0	0x7f5dc57efc00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #61
+round size is: 256
+Before find free block
+ffffffff ffffffff ffffffff ffffffff fff1ffff ffffffff ffffffff 0 
+ffffffff ffffffff ff0000 ffffffff fff1ffff ffffffff ffffffff 0 
+block size:32	A: 15	L: 0	0x7f5dc57ef220 
+block size:64	A: 5	L: 0	0x7f5dc57ef240 
+block size:128	A: 5	L: 0	
+block size:256	A: 8	L: 0	
+block size:512	A: 6	L: 0	
+block size:1024	A: 8	L: 0	0x7f5dc57efc00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #62
+round size is: 512
+Before find free block
+ffffffff ffffffff ffffffff ffffffff fff1ffff ffffffff ffffffff ffff 
+ffffffff ffffffff ff0000 ffffffff fff1ffff ffffffff ffffffff ffff 
+block size:32	A: 15	L: 0	0x7f5dc57ef220 
+block size:64	A: 5	L: 0	0x7f5dc57ef240 
+block size:128	A: 5	L: 0	
+block size:256	A: 9	L: 0	
+block size:512	A: 6	L: 0	0x7f5dc57efe00 
+block size:1024	A: 8	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #63
+round size is: 512
+Before find free block
+ffffffff ffffffff ffffffff ffffffff fff1ffff ffffffff ffffffff ffffffff 
+ffffffff ffffffff ff0000 ffffffff fff1ffff ffffffff ffffffff ffffffff 
+block size:32	A: 15	L: 0	0x7f5dc57ef220 
+block size:64	A: 5	L: 0	0x7f5dc57ef240 
+block size:128	A: 5	L: 0	
+block size:256	A: 9	L: 0	
+block size:512	A: 7	L: 0	
+block size:1024	A: 8	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #64
+round size is: 512
+Before find free block
+-----------new page addr 0x1a86f30, ptr: 0x7f5dc57f0000 
+f 0 0 0 0 0 0 0 
+f 0 0 0 0 0 0 0 
+Current page count is: 4
+ffff000f 0 0 0 0 0 0 0 
+ffff000f 0 0 0 0 0 0 0 
+block size:32	A: 15	L: 0	0x7f5dc57ef220 
+block size:64	A: 5	L: 0	0x7f5dc57ef240 
+block size:128	A: 5	L: 0	0x7f5dc57f0080 
+block size:256	A: 9	L: 0	0x7f5dc57f0100 
+block size:512	A: 8	L: 0	
+block size:1024	A: 8	L: 0	0x7f5dc57f0400 
+block size:2048	A: 0	L: 0	0x7f5dc57f0800 
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############REQUEST############# #65
+round size is: 256
+Before find free block
+ffffff0f 0 0 0 0 0 0 0 
+ffffff0f 0 0 0 0 0 0 0 
+block size:32	A: 15	L: 0	0x7f5dc57ef220 
+block size:64	A: 5	L: 0	0x7f5dc57ef240 
+block size:128	A: 5	L: 0	0x7f5dc57f0080 
+block size:256	A: 9	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 8	L: 0	0x7f5dc57f0400 
+block size:2048	A: 0	L: 0	0x7f5dc57f0800 
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############FREE############# #66
+ptr: 0x7f5dc57ede00, start_of_page: 0x7f5dc57ec000
+round size is: 512
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+17ff8f 0 ffff0000 ffffffff 0 ffffffff ffffff ff7f 
+block size:32	A: 15	L: 0	0x7f5dc57ef220 
+block size:64	A: 5	L: 0	0x7f5dc57ef240 
+block size:128	A: 5	L: 0	0x7f5dc57f0080 
+block size:256	A: 10	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 8	L: 0	0x7f5dc57f0400 
+block size:2048	A: 0	L: 0	0x7f5dc57f0800 
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############REQUEST############# #67
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff ffffffff fff3ffff ffffffff ffffffff ffffffff 
+ffffffff ffffffff ff0000 ffffffff fff3ffff ffffffff ffffffff ffffffff 
+block size:32	A: 15	L: 0	
+block size:64	A: 5	L: 0	0x7f5dc57ef240 
+block size:128	A: 5	L: 0	0x7f5dc57f0080 
+block size:256	A: 10	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 8	L: 0	0x7f5dc57f0400 
+block size:2048	A: 0	L: 0	0x7f5dc57f0800 
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############REQUEST############# #68
+round size is: 64
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffffffff ffffffff ff0000 ffffffff ffffffff ffffffff ffffffff ffffffff 
+block size:32	A: 16	L: 0	
+block size:64	A: 5	L: 0	
+block size:128	A: 5	L: 0	0x7f5dc57f0080 
+block size:256	A: 10	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 8	L: 0	0x7f5dc57f0400 
+block size:2048	A: 0	L: 0	0x7f5dc57f0800 
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############REQUEST############# #69
+round size is: 32
+Before find free block
+ffffff1f 0 0 0 0 0 0 0 
+ffffff1f 0 0 0 0 0 0 0 
+block size:32	A: 16	L: 0	0x7f5dc57f00a0 
+block size:64	A: 6	L: 0	0x7f5dc57f00c0 
+block size:128	A: 5	L: 0	
+block size:256	A: 10	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 8	L: 0	0x7f5dc57f0400 
+block size:2048	A: 0	L: 0	0x7f5dc57f0800 
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############REQUEST############# #70
+round size is: 32
+Before find free block
+ffffff3f 0 0 0 0 0 0 0 
+ffffff3f 0 0 0 0 0 0 0 
+block size:32	A: 17	L: 0	
+block size:64	A: 6	L: 0	0x7f5dc57f00c0 
+block size:128	A: 5	L: 0	
+block size:256	A: 10	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 8	L: 0	0x7f5dc57f0400 
+block size:2048	A: 0	L: 0	0x7f5dc57f0800 
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############REQUEST############# #71
+round size is: 1024
+Before find free block
+ffffff3f ffffffff 0 0 0 0 0 0 
+ffffff3f ffffffff 0 0 0 0 0 0 
+block size:32	A: 18	L: 0	
+block size:64	A: 6	L: 0	0x7f5dc57f00c0 
+block size:128	A: 5	L: 0	
+block size:256	A: 10	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 8	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f0800 
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############REQUEST############# #72
+round size is: 32
+Before find free block
+ffffff7f ffffffff 0 0 0 0 0 0 
+ffffff7f ffffffff 0 0 0 0 0 0 
+block size:32	A: 18	L: 0	0x7f5dc57f00e0 
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 10	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 9	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f0800 
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############FREE############# #73
+ptr: 0x7f5dc57ecb00, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+17ff8f 0 feff0000 ffffffff 0 ffffffff ffffff ff7f 
+block size:32	A: 19	L: 0	0x7f5dc57f00e0 
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 10	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 9	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f0800 
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############FREE############# #74
+ptr: 0x7f5dc57ef280, start_of_page: 0x7f5dc57ee000
+round size is: 128
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffffffff ffffffff ff0000 ffffffff ff0fffff ffffffff ffffffff ffffffff 
+block size:32	A: 19	L: 0	0x7f5dc57f00e0 
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 10	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 9	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f0800 
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############REQUEST############# #75
+round size is: 1024
+Before find free block
+ffffff7f ffffffff ffffffff 0 0 0 0 0 
+ffffff7f ffffffff ffffffff 0 0 0 0 0 
+block size:32	A: 19	L: 0	0x7f5dc57f00e0 
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 10	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 9	L: 0	0x7f5dc57f0c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############FREE############# #76
+ptr: 0x7f5dc57f0080, start_of_page: 0x7f5dc57f0000
+round size is: 32
+ffffff7f ffffffff ffffffff 0 0 0 0 0 
+ffffff6f ffffffff ffffffff 0 0 0 0 0 
+block size:32	A: 19	L: 0	0x7f5dc57f00e0 
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 10	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 10	L: 0	0x7f5dc57f0c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############FREE############# #77
+ptr: 0x7f5dc57ec220, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+15ff8f 0 feff0000 ffffffff 0 ffffffff ffffff ff7f 
+block size:32	A: 19	L: 0	0x7f5dc57f00e0 
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 10	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 10	L: 0	0x7f5dc57f0c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############REQUEST############# #78
+round size is: 256
+Before find free block
+ffffff7f ffffffff ffffffff ff 0 0 0 0 
+ffffff6f ffffffff ffffffff ff 0 0 0 0 
+block size:32	A: 19	L: 0	0x7f5dc57f00e0 
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 10	L: 0	0x7f5dc57f0d00 
+block size:512	A: 9	L: 0	0x7f5dc57f0e00 
+block size:1024	A: 10	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f1000 
+
+
+
+#############REQUEST############# #79
+round size is: 1024
+Before find free block
+ffffff7f ffffffff ffffffff ff ffffffff 0 0 0 
+ffffff6f ffffffff ffffffff ff ffffffff 0 0 0 
+block size:32	A: 19	L: 0	0x7f5dc57f00e0 
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 11	L: 0	0x7f5dc57f0d00 
+block size:512	A: 9	L: 0	0x7f5dc57f0e00 
+block size:1024	A: 10	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #80
+round size is: 256
+Before find free block
+ffffff7f ffffffff ffffffff ffff ffffffff 0 0 0 
+ffffff6f ffffffff ffffffff ffff ffffffff 0 0 0 
+block size:32	A: 19	L: 0	0x7f5dc57f00e0 
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 11	L: 0	
+block size:512	A: 9	L: 0	0x7f5dc57f0e00 
+block size:1024	A: 11	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #81
+ptr: 0x7f5dc57efc00, start_of_page: 0x7f5dc57ee000
+round size is: 512
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffffffff ffffffff ff0000 ffffffff ff0fffff ffffffff ffffffff ffff0000 
+block size:32	A: 19	L: 0	0x7f5dc57f00e0 
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 12	L: 0	
+block size:512	A: 9	L: 0	0x7f5dc57f0e00 
+block size:1024	A: 11	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #82
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff ffff ffffffff 0 0 0 
+ffffffef ffffffff ffffffff ffff ffffffff 0 0 0 
+block size:32	A: 19	L: 0	
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 12	L: 0	
+block size:512	A: 9	L: 0	0x7f5dc57f0e00 
+block size:1024	A: 11	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #83
+ptr: 0x7f5dc57edc80, start_of_page: 0x7f5dc57ec000
+round size is: 64
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+15ff8f 0 feff0000 ffffffff 0 ffffffff ffffff ff4f 
+block size:32	A: 20	L: 0	
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 12	L: 0	
+block size:512	A: 9	L: 0	0x7f5dc57f0e00 
+block size:1024	A: 11	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #84
+ptr: 0x7f5dc57ec100, start_of_page: 0x7f5dc57ec000
+round size is: 256
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+15008f 0 feff0000 ffffffff 0 ffffffff ffffff ff4f 
+block size:32	A: 20	L: 0	
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 12	L: 0	
+block size:512	A: 9	L: 0	0x7f5dc57f0e00 
+block size:1024	A: 11	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #85
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff 1ffff ffffffff 0 0 0 
+ffffffef ffffffff ffffffff 1ffff ffffffff 0 0 0 
+block size:32	A: 20	L: 0	0x7f5dc57f0e20 
+block size:64	A: 6	L: 0	0x7f5dc57f0e40 
+block size:128	A: 5	L: 0	0x7f5dc57f0e80 
+block size:256	A: 12	L: 0	0x7f5dc57f0f00 
+block size:512	A: 9	L: 0	
+block size:1024	A: 11	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #86
+ptr: 0x7f5dc57f00e0, start_of_page: 0x7f5dc57f0000
+round size is: 32
+ffffffff ffffffff ffffffff 1ffff ffffffff 0 0 0 
+ffffff6f ffffffff ffffffff 1ffff ffffffff 0 0 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 6	L: 0	0x7f5dc57f0e40 
+block size:128	A: 5	L: 0	0x7f5dc57f0e80 
+block size:256	A: 12	L: 0	0x7f5dc57f0f00 
+block size:512	A: 9	L: 0	
+block size:1024	A: 11	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #87
+round size is: 64
+Before find free block
+ffffffff ffffffff ffffffff dffff ffffffff 0 0 0 
+ffffff6f ffffffff ffffffff dffff ffffffff 0 0 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 6	L: 0	
+block size:128	A: 5	L: 0	0x7f5dc57f0e80 
+block size:256	A: 12	L: 0	0x7f5dc57f0f00 
+block size:512	A: 9	L: 0	
+block size:1024	A: 11	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #88
+ptr: 0x7f5dc57f0100, start_of_page: 0x7f5dc57f0000
+round size is: 256
+ffffffff ffffffff ffffffff dffff ffffffff 0 0 0 
+ffff006f ffffffff ffffffff dffff ffffffff 0 0 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 7	L: 0	
+block size:128	A: 5	L: 0	0x7f5dc57f0e80 
+block size:256	A: 12	L: 0	0x7f5dc57f0f00 
+block size:512	A: 9	L: 0	
+block size:1024	A: 11	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #89
+ptr: 0x7f5dc57f0e00, start_of_page: 0x7f5dc57f0000
+round size is: 32
+ffffffff ffffffff ffffffff dffff ffffffff 0 0 0 
+ffff006f ffffffff ffffffff cffff ffffffff 0 0 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 7	L: 0	
+block size:128	A: 5	L: 0	0x7f5dc57f0e80 
+block size:256	A: 12	L: 0	0x7f5dc57f0f00 
+block size:512	A: 9	L: 0	
+block size:1024	A: 11	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #90
+round size is: 128
+Before find free block
+ffffffff ffffffff ffffffff fdffff ffffffff 0 0 0 
+ffff006f ffffffff ffffffff fcffff ffffffff 0 0 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 7	L: 0	
+block size:128	A: 5	L: 0	
+block size:256	A: 12	L: 0	0x7f5dc57f0f00 
+block size:512	A: 9	L: 0	
+block size:1024	A: 11	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #91
+round size is: 64
+Before find free block
+ffffffff ffffffff ffffffff 3fdffff ffffffff 0 0 0 
+ffff006f ffffffff ffffffff 3fcffff ffffffff 0 0 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 7	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	0x7f5dc57f0f80 
+block size:256	A: 12	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 11	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #92
+ptr: 0x7f5dc57ecb60, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+15008f 0 f6ff0000 ffffffff 0 ffffffff ffffff ff4f 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	0x7f5dc57f0f80 
+block size:256	A: 12	L: 0	
+block size:512	A: 9	L: 0	
+block size:1024	A: 11	L: 0	0x7f5dc57f1400 
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #93
+round size is: 512
+Before find free block
+ffffffff ffffffff ffffffff 3fdffff ffffffff ffff 0 0 
+ffff006f ffffffff ffffffff 3fcffff ffffffff ffff 0 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	0x7f5dc57f0f80 
+block size:256	A: 12	L: 0	
+block size:512	A: 9	L: 0	0x7f5dc57f1600 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #94
+ptr: 0x7f5dc57f00c0, start_of_page: 0x7f5dc57f0000
+round size is: 32
+ffffffff ffffffff ffffffff 3fdffff ffffffff ffff 0 0 
+ffff002f ffffffff ffffffff 3fcffff ffffffff ffff 0 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	0x7f5dc57f0f80 
+block size:256	A: 12	L: 0	
+block size:512	A: 10	L: 0	0x7f5dc57f1600 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #95
+round size is: 256
+Before find free block
+ffffffff ffffffff ffffffff 3fdffff ffffffff ffffff 0 0 
+ffff002f ffffffff ffffffff 3fcffff ffffffff ffffff 0 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	0x7f5dc57f0f80 
+block size:256	A: 12	L: 0	0x7f5dc57f1700 
+block size:512	A: 10	L: 0	
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f1800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #96
+round size is: 512
+Before find free block
+ffffffff ffffffff ffffffff 3fdffff ffffffff ffffff ffff 0 
+ffff002f ffffffff ffffffff 3fcffff ffffffff ffffff ffff 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	0x7f5dc57f0f80 
+block size:256	A: 13	L: 0	0x7f5dc57f1700 
+block size:512	A: 10	L: 0	0x7f5dc57f1a00 
+block size:1024	A: 11	L: 0	0x7f5dc57f1c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #97
+ptr: 0x7f5dc57ed400, start_of_page: 0x7f5dc57ec000
+round size is: 1024
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+15008f 0 f6ff0000 ffffffff 0 0 ffffff ff4f 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	0x7f5dc57f0f80 
+block size:256	A: 13	L: 0	0x7f5dc57f1700 
+block size:512	A: 11	L: 0	0x7f5dc57f1a00 
+block size:1024	A: 11	L: 0	0x7f5dc57f1c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #98
+round size is: 256
+Before find free block
+ffffffff ffffffff ffffffff 3fdffff ffffffff ffffffff ffff 0 
+ffff002f ffffffff ffffffff 3fcffff ffffffff ffffffff ffff 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	0x7f5dc57f0f80 
+block size:256	A: 13	L: 0	
+block size:512	A: 11	L: 0	0x7f5dc57f1a00 
+block size:1024	A: 11	L: 0	0x7f5dc57f1c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #99
+ptr: 0x7f5dc57f0400, start_of_page: 0x7f5dc57f0000
+round size is: 1024
+ffffffff ffffffff ffffffff 3fdffff ffffffff ffffffff ffff 0 
+ffff002f 0 ffffffff 3fcffff ffffffff ffffffff ffff 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	0x7f5dc57f0f80 
+block size:256	A: 14	L: 0	
+block size:512	A: 11	L: 0	0x7f5dc57f1a00 
+block size:1024	A: 11	L: 0	0x7f5dc57f1c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #100
+ptr: 0x7f5dc57ec280, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+5008f 0 f6ff0000 ffffffff 0 0 ffffff ff4f 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	0x7f5dc57f0f80 
+block size:256	A: 14	L: 0	
+block size:512	A: 11	L: 0	0x7f5dc57f1a00 
+block size:1024	A: 11	L: 0	0x7f5dc57f1c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #101
+round size is: 512
+Before find free block
+ffffffff ffffffff ffffffff 3fdffff ffffffff ffffffff ffffffff 0 
+ffff002f 0 ffffffff 3fcffff ffffffff ffffffff ffffffff 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	0x7f5dc57f0f80 
+block size:256	A: 14	L: 0	
+block size:512	A: 11	L: 0	
+block size:1024	A: 11	L: 0	0x7f5dc57f1c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #102
+ptr: 0x7f5dc57f1700, start_of_page: 0x7f5dc57f0000
+round size is: 256
+ffffffff ffffffff ffffffff 3fdffff ffffffff ffffffff ffffffff 0 
+ffff002f 0 ffffffff 3fcffff ffffffff ffffff ffffffff 0 
+block size:32	A: 21	L: 0	0x7f5dc57f0e20 
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	0x7f5dc57f0f80 
+block size:256	A: 14	L: 0	
+block size:512	A: 12	L: 0	
+block size:1024	A: 11	L: 0	0x7f5dc57f1c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #103
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff 3ffffff ffffffff ffffffff ffffffff 0 
+ffff002f 0 ffffffff 3feffff ffffffff ffffff ffffffff 0 
+block size:32	A: 21	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	0x7f5dc57f0f80 
+block size:256	A: 14	L: 0	
+block size:512	A: 12	L: 0	
+block size:1024	A: 11	L: 0	0x7f5dc57f1c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #104
+round size is: 128
+Before find free block
+ffffffff ffffffff ffffffff f3ffffff ffffffff ffffffff ffffffff 0 
+ffff002f 0 ffffffff f3feffff ffffffff ffffff ffffffff 0 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 6	L: 0	
+block size:256	A: 14	L: 0	
+block size:512	A: 12	L: 0	
+block size:1024	A: 11	L: 0	0x7f5dc57f1c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #105
+round size is: 128
+Before find free block
+ffffffff ffffffff ffffffff f3ffffff ffffffff ffffffff ffffffff f 
+ffff002f 0 ffffffff f3feffff ffffffff ffffff ffffffff f 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 7	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #106
+ptr: 0x7f5dc57ef200, start_of_page: 0x7f5dc57ee000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffffffff ffffffff ff0000 ffffffff ff0effff ffffffff ffffffff ffff0000 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #107
+ptr: 0x7f5dc57f0200, start_of_page: 0x7f5dc57f0000
+round size is: 512
+ffffffff ffffffff ffffffff f3ffffff ffffffff ffffffff ffffffff f 
+2f 0 ffffffff f3feffff ffffffff ffffff ffffffff f 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #108
+ptr: 0x7f5dc57f00a0, start_of_page: 0x7f5dc57f0000
+round size is: 32
+ffffffff ffffffff ffffffff f3ffffff ffffffff ffffffff ffffffff f 
+f 0 ffffffff f3feffff ffffffff ffffff ffffffff f 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #109
+ptr: 0x7f5dc57ecb80, start_of_page: 0x7f5dc57ec000
+round size is: 128
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+5008f 0 6ff0000 ffffffff 0 0 ffffff ff4f 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #110
+ptr: 0x7f5dc57f1600, start_of_page: 0x7f5dc57f0000
+round size is: 256
+ffffffff ffffffff ffffffff f3ffffff ffffffff ffffffff ffffffff f 
+f 0 ffffffff f3feffff ffffffff ffff ffffffff f 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #111
+ptr: 0x7f5dc57ef240, start_of_page: 0x7f5dc57ee000
+round size is: 64
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffffffff ffffffff ff0000 ffffffff ff02ffff ffffffff ffffffff ffff0000 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #112
+ptr: 0x7f5dc57ec240, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+1008f 0 6ff0000 ffffffff 0 0 ffffff ff4f 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #113
+ptr: 0x7f5dc57ecb40, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+1008f 0 2ff0000 ffffffff 0 0 ffffff ff4f 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #114
+ptr: 0x7f5dc57ef000, start_of_page: 0x7f5dc57ee000
+round size is: 512
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffffffff ffffffff ff0000 ffffffff ff020000 ffffffff ffffffff ffff0000 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #115
+ptr: 0x7f5dc57ecb20, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+1008f 0 ff0000 ffffffff 0 0 ffffff ff4f 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #116
+ptr: 0x7f5dc57f1c00, start_of_page: 0x7f5dc57f0000
+round size is: 128
+ffffffff ffffffff ffffffff f3ffffff ffffffff ffffffff ffffffff f 
+f 0 ffffffff f3feffff ffffffff ffff ffffffff 0 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #117
+ptr: 0x7f5dc57ec200, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+8f 0 ff0000 ffffffff 0 0 ffffff ff4f 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #118
+ptr: 0x7f5dc57ef800, start_of_page: 0x7f5dc57ee000
+round size is: 1024
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffffffff ffffffff ff0000 ffffffff ff020000 ffffffff 0 ffff0000 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	0x7f5dc57f1d00 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #119
+round size is: 256
+Before find free block
+ffffffff ffffffff ffffffff f3ffffff ffffffff ffffffff ffffffff ff0f 
+f 0 ffffffff f3feffff ffffffff ffff ffffffff ff00 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 14	L: 0	
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #120
+ptr: 0x7f5dc57f1d00, start_of_page: 0x7f5dc57f0000
+round size is: 256
+ffffffff ffffffff ffffffff f3ffffff ffffffff ffffffff ffffffff ff0f 
+f 0 ffffffff f3feffff ffffffff ffff ffffffff 0 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 15	L: 0	
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #121
+ptr: 0x7f5dc57ef400, start_of_page: 0x7f5dc57ee000
+round size is: 1024
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffffffff ffffffff ff0000 ffffffff ff020000 0 0 ffff0000 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 15	L: 0	
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #122
+round size is: 1024
+Before find free block
+-----------new page addr 0x1a87280, ptr: 0x7f5dc57f2000 
+f 0 0 0 0 0 0 0 
+f 0 0 0 0 0 0 0 
+Current page count is: 5
+f ffffffff 0 0 0 0 0 0 
+f ffffffff 0 0 0 0 0 0 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 0x7f5dc57f2080 
+block size:256	A: 15	L: 0	0x7f5dc57f2100 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 0x7f5dc57f2200 
+block size:1024	A: 11	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #123
+ptr: 0x7f5dc57ecc00, start_of_page: 0x7f5dc57ec000
+round size is: 1024
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+8f 0 ff0000 0 0 0 ffffff ff4f 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 0x7f5dc57f2080 
+block size:256	A: 15	L: 0	0x7f5dc57f2100 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 0x7f5dc57f2200 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #124
+ptr: 0x7f5dc57f0d00, start_of_page: 0x7f5dc57f0000
+round size is: 256
+ffffffff ffffffff ffffffff f3ffffff ffffffff ffffffff ffffffff ff0f 
+f 0 ffffffff f3fe00ff ffffffff ffff ffffffff 0 
+block size:32	A: 22	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f0f40 
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 0x7f5dc57f2080 
+block size:256	A: 15	L: 0	0x7f5dc57f2100 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 0x7f5dc57f2200 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #125
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff f7ffffff ffffffff ffffffff ffffffff ff0f 
+f 0 ffffffff f7fe00ff ffffffff ffff ffffffff 0 
+block size:32	A: 22	L: 0	0x7f5dc57f0f60 
+block size:64	A: 8	L: 0	
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 0x7f5dc57f2080 
+block size:256	A: 15	L: 0	0x7f5dc57f2100 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 0x7f5dc57f2200 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #126
+ptr: 0x7f5dc57ef220, start_of_page: 0x7f5dc57ee000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffffffff ffffffff ff0000 ffffffff ff000000 0 0 ffff0000 
+block size:32	A: 23	L: 0	0x7f5dc57f0f60 
+block size:64	A: 8	L: 0	
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 0x7f5dc57f2080 
+block size:256	A: 15	L: 0	0x7f5dc57f2100 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 0x7f5dc57f2200 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #127
+ptr: 0x7f5dc57ee400, start_of_page: 0x7f5dc57ee000
+round size is: 1024
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffffffff 0 ff0000 ffffffff ff000000 0 0 ffff0000 
+block size:32	A: 23	L: 0	0x7f5dc57f0f60 
+block size:64	A: 8	L: 0	
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 0x7f5dc57f2080 
+block size:256	A: 15	L: 0	0x7f5dc57f2100 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 0x7f5dc57f2200 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #128
+ptr: 0x7f5dc57f2400, start_of_page: 0x7f5dc57f2000
+round size is: 1024
+f ffffffff 0 0 0 0 0 0 
+f 0 0 0 0 0 0 0 
+block size:32	A: 23	L: 0	0x7f5dc57f0f60 
+block size:64	A: 8	L: 0	
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 0x7f5dc57f2080 
+block size:256	A: 15	L: 0	0x7f5dc57f2100 
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 0x7f5dc57f2200 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+block size:32	A: 23	L: 0	0x7f5dc57f0f60 
+block size:64	A: 8	L: 0	
+block size:128	A: 8	L: 0	0x7f5dc57f1c80 
+block size:256	A: 15	L: 0	
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+Current page count is: 4
+
+
+
+#############REQUEST############# #129
+round size is: 128
+Before find free block
+ffffffff ffffffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffff 
+f 0 ffffffff f7fe00ff ffffffff ffff ffffffff f0 
+block size:32	A: 23	L: 0	0x7f5dc57f0f60 
+block size:64	A: 8	L: 0	
+block size:128	A: 8	L: 0	
+block size:256	A: 15	L: 0	
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #130
+ptr: 0x7f5dc57ee100, start_of_page: 0x7f5dc57ee000
+round size is: 256
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffff00ff 0 ff0000 ffffffff ff000000 0 0 ffff0000 
+block size:32	A: 23	L: 0	0x7f5dc57f0f60 
+block size:64	A: 8	L: 0	
+block size:128	A: 9	L: 0	
+block size:256	A: 15	L: 0	
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #131
+ptr: 0x7f5dc57ef300, start_of_page: 0x7f5dc57ee000
+round size is: 256
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffff00ff 0 ff0000 ffffffff 0 0 0 ffff0000 
+block size:32	A: 23	L: 0	0x7f5dc57f0f60 
+block size:64	A: 8	L: 0	
+block size:128	A: 9	L: 0	
+block size:256	A: 15	L: 0	
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #132
+ptr: 0x7f5dc57f0800, start_of_page: 0x7f5dc57f0000
+round size is: 1024
+ffffffff ffffffff ffffffff f7ffffff ffffffff ffffffff ffffffff ffff 
+f 0 0 f7fe00ff ffffffff ffff ffffffff f0 
+block size:32	A: 23	L: 0	0x7f5dc57f0f60 
+block size:64	A: 8	L: 0	
+block size:128	A: 9	L: 0	
+block size:256	A: 15	L: 0	
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #133
+ptr: 0x7f5dc57edd00, start_of_page: 0x7f5dc57ec000
+round size is: 64
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+8f 0 ff0000 0 0 0 ffffff fc4f 
+block size:32	A: 23	L: 0	0x7f5dc57f0f60 
+block size:64	A: 8	L: 0	
+block size:128	A: 9	L: 0	
+block size:256	A: 15	L: 0	
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #134
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffff 
+f 0 0 fffe00ff ffffffff ffff ffffffff f0 
+block size:32	A: 23	L: 0	
+block size:64	A: 8	L: 0	
+block size:128	A: 9	L: 0	
+block size:256	A: 15	L: 0	
+block size:512	A: 12	L: 0	0x7f5dc57f1e00 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #135
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 1ffff 
+f 0 0 fffe00ff ffffffff ffff ffffffff 100f0 
+block size:32	A: 24	L: 0	0x7f5dc57f1e20 
+block size:64	A: 8	L: 0	0x7f5dc57f1e40 
+block size:128	A: 9	L: 0	0x7f5dc57f1e80 
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 
+block size:512	A: 12	L: 0	
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #136
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 3ffff 
+f 0 0 fffe00ff ffffffff ffff ffffffff 300f0 
+block size:32	A: 25	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f1e40 
+block size:128	A: 9	L: 0	0x7f5dc57f1e80 
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 
+block size:512	A: 12	L: 0	
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+
+
+
+#############REQUEST############# #137
+round size is: 512
+Before find free block
+-----------new page addr 0x1a87b10, ptr: 0x7f5dc57f2000 
+f 0 0 0 0 0 0 0 
+f 0 0 0 0 0 0 0 
+Current page count is: 5
+ffff000f 0 0 0 0 0 0 0 
+ffff000f 0 0 0 0 0 0 0 
+block size:32	A: 26	L: 0	
+block size:64	A: 8	L: 0	0x7f5dc57f1e40 
+block size:128	A: 9	L: 0	0x7f5dc57f1e80 0x7f5dc57f2080 
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 12	L: 0	
+block size:1024	A: 12	L: 0	0x7f5dc57f2400 
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #138
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 7ffff 
+f 0 0 fffe00ff ffffffff ffff ffffffff 700f0 
+block size:32	A: 26	L: 0	0x7f5dc57f1e60 
+block size:64	A: 8	L: 0	
+block size:128	A: 9	L: 0	0x7f5dc57f1e80 0x7f5dc57f2080 
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 13	L: 0	
+block size:1024	A: 12	L: 0	0x7f5dc57f2400 
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #139
+ptr: 0x7f5dc57f1400, start_of_page: 0x7f5dc57f0000
+round size is: 512
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 7ffff 
+f 0 0 fffe00ff ffffffff 0 ffffffff 700f0 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 8	L: 0	
+block size:128	A: 9	L: 0	0x7f5dc57f1e80 0x7f5dc57f2080 
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 13	L: 0	
+block size:1024	A: 12	L: 0	0x7f5dc57f2400 
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #140
+round size is: 512
+Before find free block
+ffff000f ffff 0 0 0 0 0 0 
+ffff000f ffff 0 0 0 0 0 0 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 8	L: 0	
+block size:128	A: 9	L: 0	0x7f5dc57f1e80 0x7f5dc57f2080 
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 13	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #141
+round size is: 64
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 37ffff 
+f 0 0 fffe00ff ffffffff 0 ffffffff 3700f0 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 8	L: 0	0x7f5dc57f1ec0 
+block size:128	A: 9	L: 0	0x7f5dc57f2080 
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #142
+ptr: 0x7f5dc57eda00, start_of_page: 0x7f5dc57ec000
+round size is: 256
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+8f 0 ff0000 0 0 0 ffff fc4f 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 9	L: 0	0x7f5dc57f1ec0 
+block size:128	A: 9	L: 0	0x7f5dc57f2080 
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #143
+round size is: 128
+Before find free block
+ffff00ff ffff 0 0 0 0 0 0 
+ffff00ff ffff 0 0 0 0 0 0 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 9	L: 0	0x7f5dc57f1ec0 
+block size:128	A: 9	L: 0	
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #144
+ptr: 0x7f5dc57f1e00, start_of_page: 0x7f5dc57f0000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 37ffff 
+f 0 0 fffe00ff ffffffff 0 ffffffff 3600f0 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 9	L: 0	0x7f5dc57f1ec0 
+block size:128	A: 10	L: 0	
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #145
+ptr: 0x7f5dc57f1000, start_of_page: 0x7f5dc57f0000
+round size is: 1024
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 37ffff 
+f 0 0 fffe00ff 0 0 ffffffff 3600f0 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 9	L: 0	0x7f5dc57f1ec0 
+block size:128	A: 10	L: 0	
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #146
+ptr: 0x7f5dc57f0e40, start_of_page: 0x7f5dc57f0000
+round size is: 64
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 37ffff 
+f 0 0 fff200ff 0 0 ffffffff 3600f0 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 9	L: 0	0x7f5dc57f1ec0 
+block size:128	A: 10	L: 0	
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #147
+ptr: 0x7f5dc57edd80, start_of_page: 0x7f5dc57ec000
+round size is: 128
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+8f 0 ff0000 0 0 0 ffff c4f 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 9	L: 0	0x7f5dc57f1ec0 
+block size:128	A: 10	L: 0	
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #148
+round size is: 64
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff f7ffff 
+f 0 0 fff200ff 0 0 ffffffff f600f0 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 9	L: 0	
+block size:128	A: 10	L: 0	
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #149
+ptr: 0x7f5dc57edc00, start_of_page: 0x7f5dc57ec000
+round size is: 128
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+8f 0 ff0000 0 0 0 ffff c40 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 10	L: 0	
+block size:128	A: 10	L: 0	
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #150
+ptr: 0x7f5dc57edd40, start_of_page: 0x7f5dc57ec000
+round size is: 64
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+8f 0 ff0000 0 0 0 ffff 40 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 10	L: 0	
+block size:128	A: 10	L: 0	
+block size:256	A: 15	L: 0	0x7f5dc57f1f00 0x7f5dc57f2100 
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #151
+round size is: 256
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff fff7ffff 
+f 0 0 fff200ff 0 0 ffffffff fff600f0 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 10	L: 0	
+block size:128	A: 10	L: 0	
+block size:256	A: 15	L: 0	0x7f5dc57f2100 
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #152
+ptr: 0x7f5dc57f1e20, start_of_page: 0x7f5dc57f0000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff fff7ffff 
+f 0 0 fff200ff 0 0 ffffffff fff400f0 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 10	L: 0	
+block size:128	A: 10	L: 0	
+block size:256	A: 16	L: 0	0x7f5dc57f2100 
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #153
+round size is: 128
+Before find free block
+ffff0fff ffff 0 0 0 0 0 0 
+ffff0fff ffff 0 0 0 0 0 0 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 10	L: 0	
+block size:128	A: 10	L: 0	0x7f5dc57f2180 
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #154
+ptr: 0x7f5dc57ed800, start_of_page: 0x7f5dc57ec000
+round size is: 512
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+8f 0 ff0000 0 0 0 0 40 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	0x7f5dc57f2180 
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #155
+ptr: 0x7f5dc57f1800, start_of_page: 0x7f5dc57f0000
+round size is: 512
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff fff7ffff 
+f 0 0 fff200ff 0 0 ffff0000 fff400f0 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	0x7f5dc57f2180 
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #156
+ptr: 0x7f5dc57ee080, start_of_page: 0x7f5dc57ee000
+round size is: 128
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffff000f 0 ff0000 ffffffff 0 0 0 ffff0000 
+block size:32	A: 27	L: 0	0x7f5dc57f1e60 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	0x7f5dc57f2180 
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #157
+round size is: 32
+Before find free block
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 fff200ff 0 0 ffff0000 fffc00f0 
+block size:32	A: 27	L: 0	
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	0x7f5dc57f2180 
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #158
+ptr: 0x7f5dc57f0e20, start_of_page: 0x7f5dc57f0000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 fff000ff 0 0 ffff0000 fffc00f0 
+block size:32	A: 28	L: 0	
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	0x7f5dc57f2180 
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #159
+ptr: 0x7f5dc57edcc0, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+8f 0 ff0000 0 0 0 0 0 
+block size:32	A: 28	L: 0	
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	0x7f5dc57f2180 
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #160
+round size is: 32
+Before find free block
+ffff1fff ffff 0 0 0 0 0 0 
+ffff1fff ffff 0 0 0 0 0 0 
+block size:32	A: 28	L: 0	0x7f5dc57f21a0 
+block size:64	A: 10	L: 0	0x7f5dc57f21c0 
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #161
+ptr: 0x7f5dc57f1a00, start_of_page: 0x7f5dc57f0000
+round size is: 512
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 fff000ff 0 0 0 fffc00f0 
+block size:32	A: 29	L: 0	0x7f5dc57f21a0 
+block size:64	A: 10	L: 0	0x7f5dc57f21c0 
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #162
+ptr: 0x7f5dc57f1c80, start_of_page: 0x7f5dc57f0000
+round size is: 128
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 fff000ff 0 0 0 fffc0000 
+block size:32	A: 29	L: 0	0x7f5dc57f21a0 
+block size:64	A: 10	L: 0	0x7f5dc57f21c0 
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #163
+ptr: 0x7f5dc57f1e80, start_of_page: 0x7f5dc57f0000
+round size is: 64
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 fff000ff 0 0 0 ffcc0000 
+block size:32	A: 29	L: 0	0x7f5dc57f21a0 
+block size:64	A: 10	L: 0	0x7f5dc57f21c0 
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #164
+round size is: 32
+Before find free block
+ffff3fff ffff 0 0 0 0 0 0 
+ffff3fff ffff 0 0 0 0 0 0 
+block size:32	A: 29	L: 0	
+block size:64	A: 10	L: 0	0x7f5dc57f21c0 
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #165
+ptr: 0x7f5dc57ec0e0, start_of_page: 0x7f5dc57ec000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 ff0000 0 0 0 0 0 
+block size:32	A: 30	L: 0	
+block size:64	A: 10	L: 0	0x7f5dc57f21c0 
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #166
+ptr: 0x7f5dc57f2200, start_of_page: 0x7f5dc57f2000
+round size is: 512
+ffff3fff ffff 0 0 0 0 0 0 
+3fff ffff 0 0 0 0 0 0 
+block size:32	A: 30	L: 0	
+block size:64	A: 10	L: 0	0x7f5dc57f21c0 
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #167
+round size is: 32
+Before find free block
+ffff7fff ffff 0 0 0 0 0 0 
+7fff ffff 0 0 0 0 0 0 
+block size:32	A: 30	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #168
+ptr: 0x7f5dc57eec00, start_of_page: 0x7f5dc57ee000
+round size is: 1024
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffff000f 0 ff0000 0 0 0 0 ffff0000 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #169
+ptr: 0x7f5dc57f0c00, start_of_page: 0x7f5dc57f0000
+round size is: 256
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 fff00000 0 0 0 ffcc0000 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #170
+ptr: 0x7f5dc57f1ec0, start_of_page: 0x7f5dc57f0000
+round size is: 64
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 fff00000 0 0 0 ff0c0000 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #171
+ptr: 0x7f5dc57f0f40, start_of_page: 0x7f5dc57f0000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 fbf00000 0 0 0 ff0c0000 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	
+block size:2048	A: 0	L: 0	0x7f5dc57f2800 
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #172
+round size is: 1024
+Before find free block
+ffff7fff ffff ffffffff 0 0 0 0 0 
+7fff ffff ffffffff 0 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 12	L: 0	0x7f5dc57f2c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #173
+ptr: 0x7f5dc57f0f80, start_of_page: 0x7f5dc57f0000
+round size is: 128
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 bf00000 0 0 0 ff0c0000 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	0x7f5dc57f2600 
+block size:1024	A: 13	L: 0	0x7f5dc57f2c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #174
+round size is: 512
+Before find free block
+ffff7fff ffffffff ffffffff 0 0 0 0 0 
+7fff ffffffff ffffffff 0 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 14	L: 0	
+block size:1024	A: 13	L: 0	0x7f5dc57f2c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #175
+ptr: 0x7f5dc57f0e80, start_of_page: 0x7f5dc57f0000
+round size is: 128
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 b000000 0 0 0 ff0c0000 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 15	L: 0	
+block size:1024	A: 13	L: 0	0x7f5dc57f2c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #176
+ptr: 0x7f5dc57f0f00, start_of_page: 0x7f5dc57f0000
+round size is: 64
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 8000000 0 0 0 ff0c0000 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 15	L: 0	
+block size:1024	A: 13	L: 0	0x7f5dc57f2c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #177
+ptr: 0x7f5dc57f21c0, start_of_page: 0x7f5dc57f2000
+round size is: 32
+ffff7fff ffffffff ffffffff 0 0 0 0 0 
+3fff ffffffff ffffffff 0 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 15	L: 0	
+block size:1024	A: 13	L: 0	0x7f5dc57f2c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #178
+ptr: 0x7f5dc57f1e40, start_of_page: 0x7f5dc57f0000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 8000000 0 0 0 ff080000 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 15	L: 0	
+block size:1024	A: 13	L: 0	0x7f5dc57f2c00 
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #179
+round size is: 512
+Before find free block
+ffff7fff ffffffff ffffffff ffff 0 0 0 0 
+3fff ffffffff ffffffff ffff 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	
+block size:256	A: 16	L: 0	
+block size:512	A: 15	L: 0	0x7f5dc57f2e00 
+block size:1024	A: 13	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #180
+round size is: 128
+Before find free block
+ffff7fff ffffffff ffffffff fffff 0 0 0 0 
+3fff ffffffff ffffffff fffff 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 11	L: 0	0x7f5dc57f2e80 
+block size:256	A: 16	L: 0	0x7f5dc57f2f00 
+block size:512	A: 16	L: 0	
+block size:1024	A: 13	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #181
+ptr: 0x7f5dc57f2080, start_of_page: 0x7f5dc57f2000
+round size is: 128
+ffff7fff ffffffff ffffffff fffff 0 0 0 0 
+3f0f ffffffff ffffffff fffff 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 16	L: 0	0x7f5dc57f2f00 
+block size:512	A: 16	L: 0	
+block size:1024	A: 13	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #182
+ptr: 0x7f5dc57f2180, start_of_page: 0x7f5dc57f2000
+round size is: 32
+ffff7fff ffffffff ffffffff fffff 0 0 0 0 
+2f0f ffffffff ffffffff fffff 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 16	L: 0	0x7f5dc57f2f00 
+block size:512	A: 16	L: 0	
+block size:1024	A: 13	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #183
+ptr: 0x7f5dc57f2600, start_of_page: 0x7f5dc57f2000
+round size is: 512
+ffff7fff ffffffff ffffffff fffff 0 0 0 0 
+2f0f ffff ffffffff fffff 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 16	L: 0	0x7f5dc57f2f00 
+block size:512	A: 16	L: 0	
+block size:1024	A: 13	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #184
+ptr: 0x7f5dc57f2100, start_of_page: 0x7f5dc57f2000
+round size is: 128
+ffff7fff ffffffff ffffffff fffff 0 0 0 0 
+200f ffff ffffffff fffff 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 16	L: 0	0x7f5dc57f2f00 
+block size:512	A: 16	L: 0	
+block size:1024	A: 13	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #185
+ptr: 0x7f5dc57f2c00, start_of_page: 0x7f5dc57f2000
+round size is: 512
+ffff7fff ffffffff ffffffff fffff 0 0 0 0 
+200f ffff ffffffff f0000 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 16	L: 0	0x7f5dc57f2f00 
+block size:512	A: 16	L: 0	
+block size:1024	A: 13	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #186
+round size is: 256
+Before find free block
+ffff7fff ffffffff ffffffff ff0fffff 0 0 0 0 
+200f ffff ffffffff ff0f0000 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 16	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 13	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #187
+ptr: 0x7f5dc57eea00, start_of_page: 0x7f5dc57ee000
+round size is: 256
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffff000f 0 0 0 0 0 0 ffff0000 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 13	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #188
+ptr: 0x7f5dc57efe00, start_of_page: 0x7f5dc57ee000
+round size is: 512
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+ffff000f 0 0 0 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 13	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #189
+ptr: 0x7f5dc57f0f60, start_of_page: 0x7f5dc57f0000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 0 0 0 0 ff080000 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 13	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############FREE############# #190
+ptr: 0x7f5dc57f2e00, start_of_page: 0x7f5dc57f2000
+round size is: 128
+ffff7fff ffffffff ffffffff ff0fffff 0 0 0 0 
+200f ffff ffffffff ff000000 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 13	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	0x7f5dc57f3000 
+
+
+
+#############REQUEST############# #191
+round size is: 1024
+Before find free block
+ffff7fff ffffffff ffffffff ff0fffff ffffffff 0 0 0 
+200f ffff ffffffff ff000000 ffffffff 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 13	L: 0	0x7f5dc57f3400 
+block size:2048	A: 0	L: 0	0x7f5dc57f3800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #192
+ptr: 0x7f5dc57f1e60, start_of_page: 0x7f5dc57f0000
+round size is: 32
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 0 0 0 0 ff000000 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 14	L: 0	0x7f5dc57f3400 
+block size:2048	A: 0	L: 0	0x7f5dc57f3800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #193
+ptr: 0x7f5dc57f3000, start_of_page: 0x7f5dc57f2000
+round size is: 1024
+ffff7fff ffffffff ffffffff ff0fffff ffffffff 0 0 0 
+200f ffff ffffffff ff000000 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 14	L: 0	0x7f5dc57f3400 
+block size:2048	A: 0	L: 0	0x7f5dc57f3800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #194
+ptr: 0x7f5dc57f21a0, start_of_page: 0x7f5dc57f2000
+round size is: 32
+ffff7fff ffffffff ffffffff ff0fffff ffffffff 0 0 0 
+f ffff ffffffff ff000000 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 14	L: 0	0x7f5dc57f3400 
+block size:2048	A: 0	L: 0	0x7f5dc57f3800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #195
+ptr: 0x7f5dc57eca00, start_of_page: 0x7f5dc57ec000
+round size is: 256
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 0 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 14	L: 0	0x7f5dc57f3400 
+block size:2048	A: 0	L: 0	0x7f5dc57f3800 
+block size:4096	A: 0	L: 0	
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 14	L: 0	0x7f5dc57f3400 
+block size:2048	A: 0	L: 0	0x7f5dc57f3800 
+block size:4096	A: 0	L: 0	
+Current page count is: 4
+
+
+
+#############FREE############# #196
+ptr: 0x7f5dc57ee200, start_of_page: 0x7f5dc57ee000
+round size is: 512
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 0 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 14	L: 0	0x7f5dc57f3400 
+block size:2048	A: 0	L: 0	0x7f5dc57f3800 
+block size:4096	A: 0	L: 0	
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 14	L: 0	0x7f5dc57f3400 
+block size:2048	A: 0	L: 0	0x7f5dc57f3800 
+block size:4096	A: 0	L: 0	
+Current page count is: 3
+
+
+
+#############FREE############# #197
+ptr: 0x7f5dc57f2800, start_of_page: 0x7f5dc57f2000
+round size is: 1024
+ffff7fff ffffffff ffffffff ff0fffff ffffffff 0 0 0 
+f ffff 0 ff000000 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 14	L: 0	0x7f5dc57f3400 
+block size:2048	A: 0	L: 0	0x7f5dc57f3800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #198
+ptr: 0x7f5dc57f2400, start_of_page: 0x7f5dc57f2000
+round size is: 512
+ffff7fff ffffffff ffffffff ff0fffff ffffffff 0 0 0 
+f 0 0 ff000000 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 14	L: 0	0x7f5dc57f3400 
+block size:2048	A: 0	L: 0	0x7f5dc57f3800 
+block size:4096	A: 0	L: 0	
+
+
+
+#############FREE############# #199
+ptr: 0x7f5dc57f2f00, start_of_page: 0x7f5dc57f2000
+round size is: 256
+ffff7fff ffffffff ffffffff ff0fffff ffffffff 0 0 0 
+f 0 0 0 0 0 0 0 
+block size:32	A: 31	L: 0	0x7f5dc57f21e0 
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	0x7f5dc57f2e80 
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 14	L: 0	0x7f5dc57f3400 
+block size:2048	A: 0	L: 0	0x7f5dc57f3800 
+block size:4096	A: 0	L: 0	
+block size:32	A: 31	L: 0	
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 14	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+Current page count is: 2
+
+
+
+#############FREE############# #200
+ptr: 0x7f5dc57f1f00, start_of_page: 0x7f5dc57f0000
+round size is: 256
+ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff 
+f 0 0 0 0 0 0 0 
+block size:32	A: 31	L: 0	
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 14	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+block size:32	A: 31	L: 0	
+block size:64	A: 10	L: 0	
+block size:128	A: 12	L: 0	
+block size:256	A: 17	L: 0	
+block size:512	A: 16	L: 0	
+block size:1024	A: 14	L: 0	
+block size:2048	A: 0	L: 0	
+block size:4096	A: 0	L: 0	
+Current page count is: 1
+page_head is the last page, free it
+Page Requested/Freed/In Use:     6/    6/    0
+Test: PASS

@@ -1,0 +1,81 @@
+In this report, we will discuss different kernel memery allocator implementations including Resource map, buddy, lazy-buddy, power-of-two and McKusick-Karels. To compare these approaches, we will record data of running trace#1 and trace#5 respectively. Typical data inludes Average Request Time, Worst request time, average free time, worst free time, page requested.
+
+Approach #1: Resource map
+Our implementation of resource map uses the first fit policy which assign the first free fit block to the request. Free blocks are maintained by a single linked list. A new page is allocated if no free block in the list is available. 
+
+Trace#1: Average Request Time(ms): 0.06610
+	 Average Free Time(ms):	   0.00235
+	 Worst Request Time(ms):   6.543
+	 Worst Free Time(ms):	   0.206
+	 Page Requested(ms):	   2
+Trace#5: Average Request Time(ms): 0.03694250000
+	 Average Free Time(ms):    0.06186062000
+	 Worst Request Time(ms):   4.176000
+	 Worst Free Time(ms):      0.354000
+	 Page Requested(ms):	   876
+
+Approach #2: Buddy System
+In our buddy system, the minimum block size is fixed as 32B. We initialize an entry page which stores an array of headers for different size block. The entry page is not used to store any request. Start from the second page, we have a bitmap stored at the beginning of each page. Each request is started by finding any fit block in the free list, split it if possible, otherwise initialize a new page. Coaliscing is done by finding buddy by checking the bitmap. 
+
+Trace#1: Average Request Time(ms): 0.07821
+	 Average Free Time(ms):    0.00623000
+	 Worst Request Time(ms):   7.577000
+	 Worst Free Time(ms):      0.461000
+	 Page Requested(ms):       4
+Trace#5: Average Request Time(ms): 0.00172690000
+	 Average Free Time(ms):    0.00127229000
+	 Worst Request Time(ms):   4.482000
+	 Worst Free Time(ms):      0.212000
+	 Page Requested(ms):       9982
+
+Approach #3 Lazy Buddy 
+In our Lazy Buddy system, we simply add one parameter called slack in our entry structure, in each free request, we check the value of slack and either free it locally or coalesce once or coalesce twice. In each allocate request, slack is added to either 1 or 2 depending on whether the free block is locally freed or not.
+
+Trace#1: Average Request Time(ms): 0.5166000
+	 Average Free Time(ms):    0.00184000
+	 Worst Request Time(ms):   5.103000
+	 Worst Free Time(ms):      0.145000
+	 Page Requested(ms):       3
+Trace#5: Average Request Time(ms): 0.00261595000
+	 Average Free Time(ms):    0.00123918000
+	 Worst Request Time(ms):   3.678000
+	 Worst Free Time(ms):      0.298000
+	 Page Requested(ms):       1705
+
+Approach #4 Power-of-Two
+Our minimum buffer size if 32B. To implement Power-of-Two, we have an array of headers for different block size. This array is stored in the first page, and the rest of the page is used to distribute required block. In each request, we first check up the corresponding list. If there is no free block, we tranverse our page list to find any available space, otherwise, we allocate new page.
+
+Trace#1: Average Request Time(ms): 0.06805000
+	 Average Free Time(ms):    0.00204000
+	 Worst Request Time(ms):   7.577000
+	 Worst Free Time(ms):      0.167000
+	 Page Requested(ms):       3
+Trace#5: Average Request Time(ms): 0.00273994000
+	 Average Free Time(ms):    0.00109478000
+	 Worst Request Time(ms):   6.752000
+	 Worst Free Time(ms):      0.350000
+	 Page Requested(ms):       1044
+
+
+Approach #5 
+In our MCK implementation, our minimum buffer size is 32B. A array of headers of different size block is stored in the first page, the rest of the page is divided into the minimum buffer size. If a required size block is not found in the corresponding list, we allocate a new page and divided it into such size and add these new blocks into the free list. When free, the block is added to the free list.
+
+Trace#1: Average Request Time(ms): 0.07882000
+	 Average Free Time(ms):    0.00544000
+	 Worst Request Time(ms):   7.648000
+	 Worst Free Time(ms):      0.403000
+	 Page Requested(ms):       8
+
+Trace#5: Average Request Time(ms): 0.00203724000
+	 Average Free Time(ms):    0.00108672000
+	 Worst Request Time(ms):   3.307000
+	 Worst Free Time(ms):      0.293000
+	 Page Requested(ms):       1360
+
+
+
+
+
+
+  
+
