@@ -1,5 +1,0 @@
-./kma_dummy.c:  *((kma_page_t**)page->ptr) = page;
-./kma_dummy.c:  if ((size + sizeof(kma_page_t*)) > page->size)
-./kma_dummy.c:  //for (i = 0; i < page->size; i++)
-./kma_dummy.c:  //  assert(BASEADDR(page->ptr + i) == page->ptr);
-./kma_dummy.c:  return page->ptr + sizeof(kma_page_t*);
